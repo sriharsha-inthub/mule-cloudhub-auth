@@ -1,3 +1,21 @@
+
+
+> Build using AWS Developer tools
+
+---
+
+| Service        | Provider/Status  |
+| -------------  |:----------------:|
+| CodeBuild      | ![Build Status](https://codebuild.ap-southeast-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiOUp3V0E5T2NLb2s3SFltajZWcWQ4dXdoZFpHeHBHdzF4amlGWUY4a0JNQWNHd0NmM21WUlRmdHUrQmdNaDAvSGNDcGdIWFhpaE9iYlgvbkgrL3RkTTJBPSIsIml2UGFyYW1ldGVyU3BlYyI6Ii9YbVdHb3RXU3Y3dFVWRmMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) |
+
+---
+
+| Endpoint        | Header-client_id  | Header-client_secret  | Resource |
+| -------------   |:----------------:| ----------------:| ----------------:|
+| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Chennai,IN |
+| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Brisbane,AU |
+
+
 # Login form using the HTTP connector Example
 
 This example application illustrates how to use Mule ESB to build a simple HTTP application with a login form. After reading this document, and creating and running the example in Mule, you should be able to leverage what you have learned to create an HTTP request-response application that is able to process incoming HTTP requests containing submitted form data.
