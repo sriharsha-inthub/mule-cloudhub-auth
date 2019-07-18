@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "login-form-using-the-http-connector.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.au.inthub:cloudhubauthentication:1.0.0",
+  "minMuleVersion": "4.1.4",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "application-types.xml",
+        "log4j2.xml",
+        "login/index.html",
+        "login/loginFailure.html",
+        "login/loginSuccessful.html",
+        "login-form-using-the-http-connector.xml",
+        "mule-artifact.properties"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
