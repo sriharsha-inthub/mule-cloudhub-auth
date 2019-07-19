@@ -10,10 +10,10 @@
 
 ---
 
-| Endpoint        | Header-client_id  | Header-client_secret  | Resource |
-| -------------   |:----------------:| ----------------:| ----------------:|
-| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Chennai,IN |
-| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Brisbane,AU |
+| Endpoint        | Resource |
+| -------------   |:----------------:|
+| http://cloudhubauth-v1.us-e2.cloudhub.io  | /login |
+| http://cloudhubauth-v1.us-e2.cloudhub.io  | /requesterLogin  |
 
 
 # Login form using the HTTP connector Example
